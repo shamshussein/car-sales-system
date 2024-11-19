@@ -1,0 +1,20 @@
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cancelButton {
+    flex: 0;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#cancelButton:hover {
+    background-color: darkred;
+}

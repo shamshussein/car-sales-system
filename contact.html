@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="style.css">
+<link rel="website icon" type="png" href="Images/cars.jpg">
+<script src="Javascript.js"></script>
+    <title>Contact us</title>
+  </head>
+  <body >
+    <header>
+      <div class="header">
+        <h1 class="head">
+          Car Sales System /<span class="head2">Architecture and Development</span>
+        </h1>
+        <br>
+      </div>
+      <div class="topnav">
+        <a href="index.php">Home</a>
+        <a href="Login.html" target="_blank">Exhibitions</a>
+        <a href="contact.html">Contact us</a>
+        <a href="About_us.html">About us</a>
+      </div>
+    </header>
+    <div class="descrption1">Our door is always open for <br>a good cup of coffee</div>
+    <div class="descrption2">let's talk <br> Share your excitements with us</div>
+
+    <br><br>
+    <div class="container">
+      <form onsubmit="return validateContactForm()" action="contact.php" method="post" >    
+     <label for="uname">Username</label>
+        <input type="text" id="uname" name="uname" placeholder="user..." required>
+  
+    <label for="email">Email</label>
+        <input type="email" id="Email" name="Email" placeholder="Your email..." required>
+
+          <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="Lebanon">Lebanon</option>
+          <option value="Canada">Canada</option>
+          <option value="France">France</option>
+          <option value="Australia">Australia</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Other">Other</option>
+        </select>    
+        <label for="subject">Feedback</label>
+        <textarea id="subject" name="subject" placeholder="Comment..." style="height:200px"  required></textarea>
+        <input type="submit" value="Submit">    
+      </form>
+    </div>
+      <div id="success-message" class="hidden">
+        <marquee behavior="alternate" direction="left" >
+          <p>
+            Thank you for contacting us! We will get back to you as soon as
+            possible.
+          </p></marquee>
+        </div> 
+          <br><br>
+ <footer><br>
+   <div class="visit">Visit our Instagram site</div> 
+    <a href="https://www.instagram.com">
+    <img src="Images/icons8-instagram-48.png" alt="logo" id="instalogo">
+</a>
+<p class="copy">&copy; Car Sales System since 2022 by: Hussein Shams. All Rights Reserved.</p><br>
+</footer>     
+  </body>
+</html>

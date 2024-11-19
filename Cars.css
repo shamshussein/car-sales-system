@@ -1,0 +1,17 @@
+body {
+	background-color: darkgray;
+}
+.info {
+	margin-left: 30%;
+	padding-right: 350px;
+	font-style: italic;
+	font-size: 16px;
+}
+
+.infoimg {
+	margin-top: 6px;
+	margin-left: 30%;
+	margin-bottom: 20px;
+	border-radius: 15px;
+
+}

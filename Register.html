@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="Register.css">
+  <link rel="website icon" type="png" href="Images/cars.jpg">
+    <script src="Javascript.js"></script>
+    </head>
+<body>
+        <div class="box">
+            <img src="Images/user.png" alt="">
+       <div class="page">
+            <div class="header">
+                <a id="Login" class="active" href="#Register">Register</a>
+            </div>
+            <div id="errorMsg"></div>
+            <div class="content">
+  <form class="login" name="loginForm" onsubmit="return validateRegisterForm()"
+  action="register.php" method="post" >
+
+<input type="text" name="uname" id="logName" placeholder="User1">
+<input type="number" name="phone" id="logphone" placeholder="+96170123456">
+<input type="email" name="email" id="logemail" placeholder="user123@carsales.com">
+  <input type="password" name="pass" id="logPassword"placeholder="user123">
+  <select name="utype">
+    <option value="user">User</option>
+  </select>
+        <br>
+<input type="submit" value="Register" >
+       </form>               
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  margin-left: 30%;
+
+}
+
+.slidefade {
+  display: none;
+}
+
+.slide {
+  width: 55%;
+  height: 200px;
+}
+
+img {
+  border-radius: 15px;
+}
+
+#allcars {
+  margin-left: 2%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: rgba(128, 14, 190, 0.91);
+  text-decoration: none;
+}
+
+#about_us {
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: rgba(128, 14, 190, 0.91);
+  text-decoration: none;
+}
+
+.image-container {
+  margin-left: 25%;
+  position: relative;
+  width: 50%;
+}
+
+.recentcar {
+  margin-left: 45%;
+}
+
+#cars {
+  width: 300px;
+  height: 200px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.1s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.description {
+  background-color: purple;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 16px 32px;
+  font-weight: bolder;
+}
+
+.image-container:hover {
+  opacity: 0.5;
+  transition-duration: 1s;
+}
+
+.image-container:hover .middle {
+  opacity: 1;
+}
+
+.image-container:hover .middle .description {
+  opacity: 1;
+}
+
+.descrption {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 4px;
+  font-size: 30px;
+  display: block;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #12192c;
+  color: white;
+}
+
+.marq {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+}
